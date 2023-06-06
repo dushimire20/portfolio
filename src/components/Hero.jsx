@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-// import Manzi from "../assets/manzi.jpg"
+import Oscar from "../assets/Oscar.png"
 
 const Hero = () => {
   return (
@@ -26,9 +26,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className=" h-full w-auto md:flex md:pt-36 md:mx-11">
+      <div className=" h-full w-auto md:flex md:pt-36 md:mx-11 gap-0 bg-gradient-to-t">
+      
       <ComputersCanvas  />
-      {/* <img src={Manzi}  className=" w-96 h-96"/> */}
+      <img src={Oscar}  className=" w-auto h-auto"/>
+     
       </div>
 
   
