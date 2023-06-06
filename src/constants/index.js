@@ -15,15 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    horizon,
     carrent,
     jobit,
     tripguide,
     threejs,
+    espoir
   } from "../assets";
+
+
   
   export const navLinks = [
     {
@@ -116,53 +116,28 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "IT support Engineer",
+      company_name: "Horizon Group",
+      icon: horizon,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responded to and resolved technical support requests from end-users via phone, email, and in-person, ensuring prompt and efficient problem resolution.",
+        "Assisted in network configuration and troubleshooting, resolving connectivity issues and ensuring smooth network operations.",
+        "Maintained and updated computer systems by installing patches, updates, and antivirus software, and performed routine system checks to proactively identify and resolve potential issues.",
+        "Actively stayed up to date with the latest technology trends and industry best practices, identifying opportunities for process improvement and implementing solutions to enhance IT support services.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "CloudSkale",
+      icon: horizon,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Actively stayed up to date with the latest technology trends and industry best practices, identifying opportunities for process improvement and implementing solutions to enhance IT support services.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
@@ -198,9 +173,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Espoir Coffee",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " A web based for a Company which is a source of coffee that is the highest quality from the hills of Rwanda.",
       tags: [
         {
           name: "react",
@@ -215,8 +190,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: espoir,
+      source_code_link: "http://espoir.coffee.s3-website-us-east-1.amazonaws.com",
     },
     {
       name: "Job IT",
