@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./osLogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -32,6 +32,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import espoir from "./espoir.png"
 
+import Manzi from "./manzi.jpg";
+import OlivierCeo from "./olivierCeo.jpg"
+import Hirwa from "./Hirwa.jpg"
+
 
 export {
   logo,
@@ -63,5 +67,8 @@ export {
   jobit,
   tripguide,
   horizon,
-  espoir
+  espoir,
+  Manzi,
+  OlivierCeo,
+  Hirwa
 };

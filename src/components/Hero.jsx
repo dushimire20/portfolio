@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+// import Manzi from "../assets/manzi.jpg"
 
 const Hero = () => {
   return (
@@ -26,7 +26,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className=" h-full w-auto md:flex md:pt-36 md:mx-11">
+      <ComputersCanvas  />
+      {/* <img src={Manzi}  className=" w-96 h-96"/> */}
+      </div>
+
+  
+
+     
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

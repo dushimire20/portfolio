@@ -16,11 +16,13 @@ import {
     figma,
     docker,
     horizon,
-    carrent,
     jobit,
     tripguide,
     threejs,
-    espoir
+    espoir,
+    Manzi,
+    OlivierCeo,
+    Hirwa
   } from "../assets";
 
 
@@ -147,27 +149,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Oscar proved me wrong.",
+      name: "Olivier Nsabimana",
+      designation: "CEO",
+      company: "CloudSkale",
+      image: OlivierCeo,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Oscar does.",
+      name: "Manzi Gandhi",
+      designation: "UI/UX Engineer ",
+      company: "CloudSkale",
+      image: Manzi,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Oscar optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Hirwa Olivier",
+      designation: "CEO",
+      company: "Espoir Coffee",
+      image: Hirwa,
     },
   ];
   

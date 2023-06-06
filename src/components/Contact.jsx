@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -27,11 +27,6 @@ const Contact = () => {
     });
   };
 
-  // lWZwGkoOIdZsEhc2b
-
-  // template_257ud7p
-
-  // service_ub3auwx
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -39,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_ub3auwx',
+        'template_257ud7p',
         {
           from_name: form.name,
           to_name: "DUSHIMIRE Oscar Napoleon",
@@ -48,7 +43,7 @@ const Contact = () => {
           to_email: "dushimireoscar@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'lWZwGkoOIdZsEhc2b'
       )
       .then(
         () => {
